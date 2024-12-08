@@ -1,0 +1,26 @@
+.ServingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  font-family: "Roboto", Helvetica;
+}
+
+.ServingContainer h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ServingContainer p {
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0;
+}

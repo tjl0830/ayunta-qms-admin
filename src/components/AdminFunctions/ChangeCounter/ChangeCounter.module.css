@@ -1,0 +1,43 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Dropdown {
+  height: 38px;
+  width: 300px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+  color: black;
+  font-family: "Roboto-Bold", Helvetica, sans-serif;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.Title {
+  text-align: center;
+}
+
+.Dropdown:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.Dropdown option {
+  font-family: "Roboto-Bold", Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 8px 12px;
+  overflow-y: auto;
+}

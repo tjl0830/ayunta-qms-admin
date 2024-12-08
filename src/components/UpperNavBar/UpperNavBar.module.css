@@ -1,0 +1,69 @@
+.upperNavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+  
+.overlapGroup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #006335;
+}
+  
+.dlsudLogo,
+.registrarLogo,
+.dateAndTime {
+    position: absolute;
+}
+  
+.dlsudLogo {
+    width: 297px;
+    height: 65px;
+    top: 6px;
+    left: 10px;
+}
+  
+.registrarLogo {
+    width: 92px;
+    height: 55px;
+    left: 324px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.dateAndTime {
+    right: 20px;
+    font-family: "Roboto-Bold", Helvetica, sans-serif;
+    color: #ffffff; 
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dateAndTime p {
+    margin: 0;
+    font-weight: 800;
+}
+
+.CounterTitle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.CounterTitle h1 {
+    margin: 0;
+    font-family: "Roboto-Bold", Helvetica, sans-serif;
+    color: #ffffff; 
+    font-size: 24px;
+    font-weight: 800;
+}
